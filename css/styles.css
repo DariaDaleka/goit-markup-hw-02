@@ -96,10 +96,7 @@ body {
 .advantages-list {
   list-style-type: none;
 }
-.strategy-title,
-.punctuality-title,
-.diligence-title,
-.technologies-title {
+.advantages-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
