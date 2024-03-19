@@ -3,6 +3,10 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+ul,
+ol {
+  list-style-type: none;
+}
 
 /*Header*/
 
@@ -18,9 +22,6 @@ body {
 }
 .logo-studio {
   color: #2e2f42;
-}
-.navigation-list {
-  list-style-type: none;
 }
 .navigation {
   text-decoration: none;
@@ -44,16 +45,14 @@ body {
 .address-style {
   font-style: normal;
 }
-.contacts-list {
-  list-style-type: none;
-  font-style: normal;
-}
 .contacts {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
+  text-decoration: none;
 }
 .contacts:hover {
   color: #404bbf;
@@ -93,9 +92,6 @@ body {
 }
 /*Advantages*/
 
-.advantages-list {
-  list-style-type: none;
-}
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -125,9 +121,7 @@ body {
   color: #2e2f42;
   text-transform: capitalize;
 }
-.our-team-list-style {
-  list-style-type: none;
-}
+
 .our-team-one {
   background-color: #ffffff;
 }
@@ -157,9 +151,7 @@ body {
   color: #2e2f42;
   text-transform: capitalize;
 }
-.our-portfolio-list-style {
-  list-style-type: none;
-}
+
 .banking-app {
   color: #ffffff;
 }
